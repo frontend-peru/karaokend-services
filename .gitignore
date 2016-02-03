@@ -31,3 +31,21 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# npm
+npm-debug.log
+npm-debug.log.*
+
+# compress
+.tar.gz
+.zip
+.rar
+
+# mac
+.DS_Store
+
+# conflict files
+*.orig
+
+bower_components/
+

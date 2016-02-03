@@ -1,0 +1,44 @@
+{
+  "name": "karaokend-services",
+  "version": "0.0.1",
+  "description": "services in koa",
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontend-peru/karaokend-services.git"
+  },
+  "keywords": [
+    "koa",
+    "nodejs",
+    "karaoke"
+  ],
+  "author": {
+    "name": "jansanchez",
+    "email": "joejansanchez@gmail.com",
+    "url": "http://frontendlabs.io/author/jansanchez"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frontend-peru/karaokend-services/issues"
+  },
+  "homepage": "https://github.com/frontend-peru/karaokend-services#readme",
+  "bin": {
+  },
+  "scripts": {
+    "test": "xo",
+    "pretest": "xo",
+    "posttest": "npm run clean",
+    "clean": "rm -rf npm-debug.log.*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
